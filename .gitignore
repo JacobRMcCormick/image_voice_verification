@@ -1,0 +1,11 @@
+# Block everything by default
+*
+
+# Allow Git to look inside subdirectories (like src/)
+!*/
+
+# Allow Python files anywhere in the project
+!**/*.py
+
+# Keep the gitignore file itself tracked
+!.gitignore
